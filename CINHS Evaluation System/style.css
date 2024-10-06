@@ -1,0 +1,956 @@
+body{
+	margin: 0;	
+	font-family: "Century Gothic";
+}
+
+
+/* for registration form  */ 
+
+.nav-bar{
+	background-color: #202124;
+	padding: 24px 24px;
+	box-shadow: 0px 0px 12px 1px black;
+}
+
+.nav-items{
+	margin-right: 18px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.nav-items:hover{
+	color: gold;
+	cursor: pointer;
+}
+
+#nav-logout{
+	float: right;
+	margin: 0;
+}
+
+#addadmin-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.addadmin-logo-con{
+	text-align: center;
+	margin: 32px 0;
+}
+
+.addadmin-form div:first-child{
+	margin-top: 50px
+}
+
+.addadmin-form-con{
+	margin: 50px auto;
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 24px 32px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 1px black;
+	text-align: center;
+}
+
+.addadmin-form{
+	text-align: left;
+}
+
+.addadmin-form div{
+	margin-top: 24px;
+}
+
+.addadmin-form input[type="text"]{
+	margin-top: 8px;
+	position: relative;
+	display: block;
+	width: 94%;
+	padding: 8px 8px;
+}
+
+#cancel{
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 11px;
+	cursor: pointer;
+	margin-right: 12px;
+}
+
+#cancel:hover{
+	background-color: darkred;
+}
+
+.addadmin-submit-con{
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+#addadmin-submit{
+	border: none;
+	background-color: green;
+	color: #FFFFFF;
+	padding: 12px;
+	cursor: pointer;	
+}
+
+#addadmin-submit:hover{
+	background-color: darkgreen;
+}
+
+
+#login-body {
+    position: relative; /* Ensures ::before is positioned correctly */
+    background-image: url("login-background.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0; /* Reset any default margin */
+    padding: 0; /* Ensure no padding is applied */
+    box-sizing: border-box; /* Include padding/border in width/height */
+    min-height: 100vh; /* Ensure full height of the viewport */
+}
+
+#login-body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+.login-main-container{
+	text-align: center;
+	height: 100vh;
+}
+
+#cinhs-logo {
+    height: 200px;
+    width: 200px;
+}
+
+.login-items{
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 24px 32px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px 1px black;
+	text-align: center;
+}
+
+.login-header-con{
+	margin-top: 32px;
+}
+
+.login-userId-con{
+	margin-top: 24px;
+	text-align: left;
+}
+
+#login-userId-txt{
+	margin-top: 8px;
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 8px 8px;
+}
+
+.login-password-con{
+	margin-top: 24px;
+	text-align: left;
+}
+
+#txtPasswordLogin{
+	width: 75%;
+	padding: 8px 8px;
+}
+
+#txtPasswordAddUser{
+	width: 75%;
+	padding: 8px 8px;
+}
+
+#txtPasswordUpdateUser{
+	width: 75%;
+	padding: 8px 8px;
+}
+
+#btnShowPasswordLogin{
+	border: none;
+	text-align: center;
+	width: 70px;
+	padding: 8px;
+	color: black;
+	cursor: pointer;
+}
+
+#btnShowPasswordAddUser{
+	border: none;
+	text-align: center;
+	width: 70px;
+	padding: 8px;
+	color: black;
+	cursor: pointer;
+}
+
+#btnShowPasswordUpdateUser{
+	border: none;
+	text-align: center;
+	width: 70px;
+	padding: 8px;
+	color: black;
+	cursor: pointer;
+}
+
+#btnShowPasswordEditProfile{
+	border: none;
+	text-align: center;
+	width: 70px;
+	padding: 8px;
+	color: black;
+	cursor: pointer;
+}
+
+
+.login-status-con{
+	margin-top: 24px;
+	text-align: left;
+}
+
+.login-btn-con{
+	text-align: center;
+	margin-top: 64px;
+	margin-bottom: 32px;
+}
+
+#login-btn{
+	border: none;
+	background-color: skyblue;
+	color: #000000;
+	padding: 12px 20px;
+	cursor: pointer;
+	border-radius: 24px;
+}
+
+#login-btn:hover{
+	background-color: lightblue;
+}
+
+.login-con p a{
+	color: skyblue;
+	text-decoration: none;
+}
+
+.login-con p a:hover{
+	color: lightblue;
+	text-decoration: none;
+}
+
+
+
+/* for home */
+#home-body{
+	text-align: center;
+}
+
+#home-body .nav-bar{
+	text-align: left;
+}
+
+.above-header{
+	background-image: url("home-wallpaper.jpg");
+	background-size: cover;
+	height: 800px;
+	box-shadow: 0px 0px 12px 1px black;	
+}
+
+.BookHaven-description{
+	text-align: center;
+	width: 700px;
+	background-color: #000000;
+	border-radius: 12px;
+	padding: 32px;
+	color: gold;
+	position: relative;
+	left: 30%;
+	top: 30px;
+	box-shadow: 0px 0px 12px 1px black;	
+}
+
+.BookHaven-description p{
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+#home-BookHavenLogo{
+	background-color: black;
+	height: 100px;
+	border-radius: 14px;
+	padding: 28px;
+	position: relative;
+	top: 20px;
+	box-shadow: 0px 0px 12px 1px black;	
+}
+
+
+
+/* for crud */
+#crud-body{
+	background-image: url("crud-background.jpg");
+	background-size: cover;
+}
+
+.crud-items{
+	text-decoration: none;
+}
+
+.crud-con{
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.crud-items a{
+	background-color: #000000;
+	padding: 48px;
+	border-radius: 12px;
+	color: #FFFFFF;
+	font-size: 36px;
+	display: inline-block;
+	width: 150px;
+	margin: 32px 48px;
+	cursor: pointer;
+}
+
+.crud-items a:hover{
+	color: gold;
+}
+
+
+
+
+
+/* for addbook */
+
+#addstudent-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.addstudent-logo-con{
+	text-align: center;
+	margin: 32px 0;
+}
+
+.addstudent-form div:first-child{
+	margin-top: 50px
+}
+
+.addstudent-form-con{
+	margin: 50px auto;
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 24px 32px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 1px black;
+	text-align: center;
+}
+
+.addstudent-form{
+	text-align: left;
+}
+
+.addstudent-form div{
+	margin-top: 24px;
+}
+
+.addstudent-form input[type="text"]{
+	margin-top: 8px;
+	position: relative;
+	display: block;
+	width: 94%;
+	padding: 8px 8px;
+}
+
+.addstudent-submit-con{
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+#addstudent-submit{
+	border: none;
+	background-color: green;
+	color: #FFFFFF;
+	padding: 12px;
+	cursor: pointer;	
+}
+
+#addstudent-submit:hover{
+	background-color: darkgreen;
+}
+
+#ListOfStudentsHere a{
+	cursor: pointer;
+	text-decoration: none;
+	color: skyblue;
+}
+
+#ListOfStudentsHere:hover a{
+	color: lightblue;
+}
+
+
+
+/* for updatestudent-form */
+#updatestudent-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.updatestudent-logo-con{
+	text-align: center;
+	margin: 32px 0;
+}
+
+.updatestudent-form div:first-child{
+	margin-top: 50px
+}
+
+.updatestudent-form-con{
+	margin: 50px auto;
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 24px 32px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 1px black;
+	text-align: center;
+}
+
+.updatestudent-form{
+	text-align: left;
+}
+
+.updatestudent-form div{
+	margin-top: 24px;
+}
+
+.updatestudent-form input[type="text"]{
+	margin-top: 8px;
+	position: relative;
+	display: block;
+	width: 94%;
+	padding: 8px 8px;
+}
+
+.updatestudent-submit-con{
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+#updatestudent-submit{
+	border: none;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 12px;
+	cursor: pointer;	
+}
+
+#updatestudent-submit:hover{
+	background-color: darkblue;
+}
+
+
+ 
+/* for listofstudents */
+#listofstudents-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.listofstudents-con{
+	border: 4px solid gold;
+	background-color: #202124;
+	margin: 50px auto;
+	width: auto;
+	height: auto;
+	border-radius: 8px;
+	text-align: center;	
+	color: #FFFFFF;
+	padding: 24px 32px;
+}
+
+#listofstudents-header{
+	margin-bottom: 48px;
+}
+
+#operations-con{
+	width: 200px;
+}
+
+.btnUpdateStudent{
+	color: #FFF;
+	background-color: blue;
+	text-decoration: none;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 10px;
+}
+
+.btnUpdateStudent:hover{
+	background-color: darkblue;
+}
+
+.btnDeleteStudent{
+	color: #FFF;
+	background-color: red;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.btnDeleteStudent:hover{
+	background-color: darkred;
+}
+
+.listofstudents-con a{
+	color: skyblue;
+	text-decoration: none;
+}
+
+.listofstudents-con a:hover{
+	color: lightblue;
+}
+
+
+#ListOfStudentsHere a{
+	cursor: pointer;
+	text-decoration: none;
+	color: skyblue;
+}
+
+#ListOfStudentsHere:hover a{
+	color: lightblue;
+}
+
+
+
+
+/* for listofadmins */
+#listofadmins-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.listofadmins-con{
+	border: 4px solid gold;
+	background-color: #202124;
+	margin: 50px auto;
+	width: auto;
+	height: auto;
+	border-radius: 8px;
+	text-align: center;	
+	color: #FFFFFF;
+	padding: 24px 32px;
+}
+
+#listofadmins-header{
+	margin-bottom: 48px;
+}
+
+.btnUpdateAdmin{
+	color: #FFF;
+	background-color: blue;
+	text-decoration: none;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 10px;
+}
+
+.btnUpdateAdmin:hover{
+	background-color: darkblue;
+}
+
+.btnDeleteAdmin{
+	color: #FFF;
+	background-color: red;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.btnDeleteAdmin:hover{
+	background-color: darkred;
+}
+
+.listofadmins-con p{
+	margin: 0;
+	margin-top: 48px;
+}
+
+
+.listofadmins-con a{
+	color: skyblue;
+	text-decoration: none;
+}
+
+.listofadmins-con a:hover{
+	color: lightblue;
+}
+
+
+/* for updateadmin-form */
+#updateadmin-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.updateadmin-logo-con{
+	text-align: center;
+	margin: 32px 0;
+}
+
+.updateadmin-form div:first-child{
+	margin-top: 50px
+}
+
+.updateadmin-form-con{
+	margin: 50px auto;
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 24px 32px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 1px black;
+	text-align: center;
+}
+
+.updateadmin-form{
+	text-align: left;
+}
+
+.updateadmin-form div{
+	margin-top: 24px;
+}
+
+.updateadmin-form input[type="text"]{
+	margin-top: 8px;
+	position: relative;
+	display: block;
+	width: 94%;
+	padding: 8px 8px;
+}
+
+.updateadmin-submit-con{
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+#updateadmin-submit{
+	border: none;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 12px;
+	cursor: pointer;	
+}
+
+#updateadmin-submit:hover{
+	background-color: rgb(10, 10, 14);
+}
+
+
+
+/* for listoffaculties */
+#listoffaculties-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.listoffaculties-con{
+	border: 4px solid gold;
+	background-color: #202124;
+	margin: 50px auto;
+	width: auto;
+	height: auto;
+	border-radius: 8px;
+	text-align: center;	
+	color: #FFFFFF;
+	padding: 24px 32px;
+}
+
+#listoffaculties-header{
+	margin-bottom: 48px;
+}
+
+.btnUpdateFaculty{
+	color: #FFF;
+	background-color: blue;
+	text-decoration: none;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 10px;
+}
+
+.btnUpdateFaculty:hover{
+	background-color: darkblue;
+}
+
+.btnDeleteFaculty{
+	color: #FFF;
+	background-color: red;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.btnDeleteFaculty:hover{
+	background-color: darkred;
+}
+
+.listoffaculties-con p{
+	margin: 0;
+	margin-top: 48px;
+}
+
+
+.listoffaculties-con a{
+	color: skyblue;
+	text-decoration: none;
+}
+
+.listoffaculties-con a:hover{
+	color: lightblue;
+}
+
+
+/* for addfaculty-form */
+#addfaculty-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.addfaculty-logo-con{
+	text-align: center;
+	margin: 32px 0;
+}
+
+.addfaculty-form div:first-child{
+	margin-top: 50px
+}
+
+.addfaculty-form-con{
+	margin: 50px auto;
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 24px 32px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 1px black;
+	text-align: center;
+}
+
+.addfaculty-form{
+	text-align: left;
+}
+
+.addfaculty-form div{
+	margin-top: 24px;
+}
+
+.addfaculty-form input[type="text"]{
+	margin-top: 8px;
+	position: relative;
+	display: block;
+	width: 94%;
+	padding: 8px 8px;
+}
+
+.addfaculty-submit-con{
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+#addfaculty-submit{
+	border: none;
+	background-color: green;
+	color: #FFFFFF;
+	padding: 12px;
+	cursor: pointer;	
+}
+
+#addfaculty-submit:hover{
+	background-color: darkgreen;
+}
+
+#ListOfFacultiesHere a{
+	cursor: pointer;
+	text-decoration: none;
+	color: skyblue;
+}
+
+#ListOfFacultiesHere:hover a{
+	color: lightblue;
+}
+
+
+
+/* for updatefaculty-form */
+#updatefaculty-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.updatefaculty-logo-con{
+	text-align: center;
+	margin: 32px 0;
+}
+
+.updatefaculty-form div:first-child{
+	margin-top: 50px
+}
+
+.updatefaculty-form-con{
+	margin: 50px auto;
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 24px 32px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 1px black;
+	text-align: center;
+}
+
+.updatefaculty-form{
+	text-align: left;
+}
+
+.updatefaculty-form div{
+	margin-top: 24px;
+}
+
+.updatefaculty-form input[type="text"]{
+	margin-top: 8px;
+	position: relative;
+	display: block;
+	width: 94%;
+	padding: 8px 8px;
+}
+
+.updatefaculty-submit-con{
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+#updatefaculty-submit{
+	border: none;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 12px;
+	cursor: pointer;	
+}
+
+#updatefaculty-submit:hover{
+	background-color: rgb(10, 10, 14);
+}
+
+
+
+/* for admin-profile */
+#admin-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.admin-profile-main-content-con{
+	margin: 50px auto;
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 1px black;
+}
+
+.ulAdminInfo{
+	list-style-type: none;
+	padding: 0px 20px;
+}
+
+.admin-photo{
+	border: 5px solid black;
+	border-radius: 50%;
+}
+
+
+
+
+/* for faculty-profile */
+#faculty-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.faculty-profile-main-content-con{
+	margin: 50px auto;
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 1px black;
+}
+
+.ulFacultyInfo{
+	list-style-type: none;
+	padding: 0px 20px;
+}
+
+.faculty-photo{
+	border: 5px solid black;
+	border-radius: 50%;
+}
+
+
+
+
+
+/* for student-profile */
+#student-body{
+	background-image: url("login-background.png");
+	background-size: cover;
+}
+
+.student-profile-main-content-con{
+	margin: 50px auto;
+	width: 400px;
+	background-color: #202124;
+	color: #FFFFFF;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 12px 1px black;
+}
+
+.ulStudentInfo{
+	list-style-type: none;
+	padding: 0px 20px;
+}
+
+.student-photo{
+	border: 5px solid black;
+	border-radius: 50%;
+}
